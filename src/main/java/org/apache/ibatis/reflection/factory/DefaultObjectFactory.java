@@ -93,7 +93,7 @@ public class DefaultObjectFactory implements ObjectFactory, Serializable {
       StringBuilder argValues = new StringBuilder();
       if (constructorArgs != null) {
         for (Object argValue : constructorArgs) {
-          argValues.append(String.valueOf(argValue));
+          argValues.append(argValue);
           argValues.append(",");
         }
       }

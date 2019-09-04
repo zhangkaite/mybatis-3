@@ -147,14 +147,5 @@ public class DynamicContext {
       map.put(name, value);
     }
 
-    @Override
-    public String getSourceAccessor(OgnlContext arg0, Object arg1, Object arg2) {
-      return null;
-    }
-
-    @Override
-    public String getSourceSetter(OgnlContext arg0, Object arg1, Object arg2) {
-      return null;
-    }
   }
 }

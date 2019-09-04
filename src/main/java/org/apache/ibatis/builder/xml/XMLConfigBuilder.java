@@ -117,7 +117,7 @@ public class XMLConfigBuilder extends BaseBuilder {
 //  <property name="username" value="${username}"/> 
 //  <property name="password" value="${password}"/> 
 //  </dataSource> 
-//  </environment> 
+//  </environment>
 //  </environments>
 //  <mappers> 
 //  <mapper resource="org/mybatis/example/BlogMapper.xml"/> 
